@@ -9,11 +9,11 @@
 namespace QL\Services;
 
 
-use Jaeger\GHttp;
 use Closure;
-use GuzzleHttp\Psr7\Response;
-use QL\QueryList;
 use GuzzleHttp\Exception\RequestException;
+use GuzzleHttp\Psr7\Response;
+use Jaeger\GHttp;
+use QL\QueryList;
 
 /**
  * Class MultiRequestService

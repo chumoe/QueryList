@@ -5,9 +5,9 @@
     "homepage": "http://querylist.cc",
     "require": {
         "PHP":">=7.1",
-        "jaeger/g-http": "^1.7",
+        "guzzlehttp/guzzle": "^7.0",
         "ext-dom": "*",
-        "tightenco/collect": ">5.0"
+        "tightenco/collect": "^9.0"
     },
     "suggest":{
 
@@ -21,7 +21,8 @@
     ],
     "autoload":{
         "psr-4":{
-            "QL\\":"src"
+            "QL\\":"src",
+            "Jaeger\\": "src/Jaeger"
         },
         "files":["./src/phpQuery.php"]
     },
