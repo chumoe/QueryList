@@ -1,12 +1,11 @@
 {
-    "name": "jaeger/querylist",
+    "name": "chumoe/querylist",
     "description": "Simple, elegant, extensible PHP Web Scraper (crawler/spider),Use the css3 dom selector,Based on phpQuery! 简洁、优雅、可扩展的PHP采集工具(爬虫)，基于phpQuery。",
     "keywords":["QueryList","phpQuery","spider"],
     "homepage": "http://querylist.cc",
     "require": {
         "PHP":">=7.1",
-        "jaeger/phpquery-single": "^1",
-        "jaeger/g-http": "^1.1",
+        "jaeger/g-http": "^1.7",
         "ext-dom": "*",
         "tightenco/collect": ">5.0"
     },
@@ -23,7 +22,8 @@
     "autoload":{
         "psr-4":{
             "QL\\":"src"
-        }
+        },
+        "files":["./src/phpQuery.php"]
     },
     "autoload-dev": {
         "psr-4": {
